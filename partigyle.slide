@@ -1,0 +1,168 @@
+Parti-gyle Brewing
+
+1 July 2015
+
+Randall McPherson
+@rlmcpherson
+
+
+* WTF is parti-gyle?
+
+gyle: wort of a given strength
+
+parti-gyle: making several beers by blending of different gyles, all from one mash
+
+* Parti-gyle
+
+"As long as you understand what a gyle is you can easily understand a parti-gyle. It's basically making a few beers by blending of different gyles. All from one mash. Forget that nonsensical bollocks about batch sparging and there is no ‘re-mashing’. There were always multiple rests in a mash, for various lengths of time, but it was still one mash."
+
+Pattinson, Ronald; England, Kristen (2013-02-12). 1909 Beer Style Guide 
+
+* Parti-gyle
+
+Can you make parti-gyle from separate runnings?
+
+Yes, but:
+- not how parti-gyle was done historically (post circa 1760)
+- results in "grainy" beer from later runnings
+
+
+* History of Parti-gyle
+
+- developed in Victorian England
+- In the beginning (1700s) mash tuns >> boil kettles
+- Grains were a larger fraction of beer cost than today
+
+* History of Parti-gyle
+
+- Motivated by efficiency as well as technical limitations
+- Consistency achievable by blending
+- Still used by Fuller's today since 1880
+
+* History of Parti-gyle
+
+Fuller's: One mash, 3 beers:
+
+- Fuller's ESB, 1.060
+- London Pride, 1.040
+- Chiswick Bitter, 1.035
+
+Runnings as low as 1.005
+
+* Parti-gyle Calculations
+
+* 
+- traditionally, target gravity is achieved through blending post-boil
+- be flexible
+
+* Rules of Thumb
+
+First third -> half the malt extract
+
+put another way: first runnings (1/3 of volume): half extract, twice as strong
+
+Two runnings of equal volume:
+
+58/42 extract ration
+
+
+* Three runnings
+
+first running: 1.5x calculated strength of entire batch
+second running: 1x calculated strength of entire batch
+third running: 0.5x calculated strength of entire batch 
+
+.link http://morebeer.com/brewingtechniques/library/backissues/issue2.2/mosher.html
+
+* Calculating Runnings Strength
+
+Number_points_ runnings = (Tot_points * Points_fraction / fractional_volume)
+
+* Blending Calculations
+
+* Blending Calculations
+
+- use gravity points (in gallons)
+- can combine m runnings / boils into n worts
+
+
+* Blending Calculations: Example
+
+ two worts: 1.080 and 1.020 of 5 gallons each:
+   80 x 5 + 20 x 5 = 500 total points
+
+ blend into 3 worts of 1.070, 1.050, and 1.040
+
+* Blending Calculations: Example
+
+2 gallons of 1.070 wort 
+
+  total gravity points = 70 x 2 = 140
+
+  h = volume of 1.080 wort
+  l = volume of 1.020 wort
+
+  2 variables -> 2 equations
+
+  80h + 20l = 70
+  h + l = 1 gallon
+
+  becomes:
+  l = total_volume (high_points - target_points) / (high_points - low_points)
+  l = 2 x (80-70) / (80-20)
+  l = 2 x 1/6 
+  l = 0.33 gallons of 1.020 wort
+
+  h = total_volume (target_points - low_points) / (high_points - low_points)
+  h = 2 * (70-20) / (80 - 20)
+  h = 2 * 5/6 
+  h = 1.67 gallons of 1.080 wort
+
+
+* Blending Calculations: Example
+
+  repeating the calculation:
+  4 gallons 1.050 wort (2 gallons of each)
+  4 gallons of 1.030 wort (2.67 of 1.020 and 1.33 of 1.080)
+
+
+
+* Calculation Resources
+
+.link http://braukaiser.com/wiki/index.php?title=Batch_Sparge_and_Party_Gyle_Simulator Calculation Spreadsheet
+.link http://www.algebra.com/algebra/homework/word/mixtures/Mixtures%3A-All-in-Symbols.lesson Mixing two concentrations for total mixture
+
+* Other considerations
+- blend pre-boil if using different boil hops
+- blend post-boil (like Fuller)
+
+
+
+* Why Parti-gyle?
+
+- mash efficiency
+- time efficiency (multiple beers)
+- explore historical techniques
+
+* 
+
+"You should know up front that you have the choice to not parti-gyle but say that you did. You would be a liar, of course, but you would still get to enjoy one of the benefits of parti-gyling as a homebrewer—that is, getting to say that you did it—without actually adding extra boils to your brew day or doing all the math."
+
+.link http://beerandbrewing.com/VUpBSygAANqiT-1n/article/practical-parti-gyle-brewing - Joe Stange
+
+* References
+
+*Articles:*
+.link http://beerandbrewing.com/VUpBSygAANqiT-1n/article/practical-parti-gyle-brewing Practical Parti-Gyle Brewing (May 2015)
+.link http://morebeer.com/brewingtechniques/library/backissues/issue2.2/mosher.html Parti-Gyle Brewing by Randy Mosher (April 1994)
+.link http://barclayperkins.blogspot.com/2010/04/party-gyles.html Party-gyles by Ron Pattinson (April 2010)
+.link http://beersmith.com/blog/2011/10/07/parti-gyle-brewing-two-beers-from-one-mash/ BeerSmith Parti-gyle (October 2011)
+
+*Podcasts*
+.link http://thebrewingnetwork.com/shows/981 Brew Strong Podcast (June 2013) 
+.link http://thebrewingnetwork.com/shows/1207 Brew Strong Podcast (April 2015) 
+
+*Books:*
+Pattinson, Ronald; England, Kristen (2013-02-12). 1909 Beer Style Guide 
+
+* End
