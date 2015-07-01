@@ -5,7 +5,6 @@ Parti-gyle Brewing
 Randall McPherson
 @rlmcpherson
 
-
 * WTF is parti-gyle?
 
 gyle: wort of a given strength
@@ -22,9 +21,11 @@ Pattinson, Ronald; England, Kristen (2013-02-12). 1909 Beer Style Guide
 
 Can you make parti-gyle from separate runnings?
 
-Yes, but:
-- not how parti-gyle was done historically (post circa 1760)
-- results in "grainy" beer from later runnings
+Yes, but it's not how parti-gyle was done historically (post circa 1760)
+
+Not just about history, there are practical reasons to blend
+
+The internet, and even some books, are confused / conflicted
 
 
 * History of Parti-gyle
@@ -37,23 +38,69 @@ Yes, but:
 
 - Motivated by efficiency as well as technical limitations
 - Consistency achievable by blending
+- Diversification of brewery with limited capacity
 - Still used by Fuller's today since 1880
 
-* History of Parti-gyle
 
-Fuller's: One mash, 3 beers:
+* Why Blend?
+
+- later runnings can be tannic and "grainy"
+- hit target OG regardless of runnings gravities
+- increase body of low-gravity beers
+- historically accurate
+- smug superiority 
+
+* Post-boil blend
+- blend with known starting gravity (no boil-off estimation)
+- fewer free variables than pre-boil
+- boil hopping will affect blending beers
+- historical (Fuller's)
+- create more beers than boils
+
+Differentiate beers on blending combinations, yeast/bacteria, fermentation temperature, dry-hopping...
+
+Examples: 
+Double IPA / IPA / Session IPA
+Belgian Golden Strong Ale / Patersbier
+IPA / Pale Ale
+
+
+
+
+* Pre-boil blend
+- account for boil-off rates when blending
+- account for shrinkage
+- independent hopping schedules
+- beers created == number of boils
+- possible to adjust malt independently (mash addition / steeping grains)
+- higher relative sobriety
+
+Examples:
+Russian Imperial Stout / Stout
+IPA / Saison
+IPL / Lager
+Just about anything with similar malt profile
+
+
+* Post-boil blend: Fuller's Brewery
+
+One mash, 3 beers:
 
 - Fuller's ESB, 1.060
 - London Pride, 1.040
 - Chiswick Bitter, 1.035
 
-Runnings as low as 1.005
+First Runnings: 1.080
+Second Runnings: 1.020 (runnings as low as 1.005)
+Same hop schedule for both boils, different dry-hopping in fermenters
 
 * Parti-gyle Calculations
 
-* 
+* Parti-gyle Calculations
+
 - traditionally, target gravity is achieved through blending post-boil
 - be flexible
+- as always, document for reproducibility
 
 * Rules of Thumb
 
@@ -61,12 +108,11 @@ First third -> half the malt extract
 
 put another way: first runnings (1/3 of volume): half extract, twice as strong
 
-Two runnings of equal volume:
+*Two runnings of equal volume:*
 
 58/42 extract ration
 
-
-* Three runnings
+*Three runnings of equal volume:*
 
 first running: 1.5x calculated strength of entire batch
 second running: 1x calculated strength of entire batch
@@ -76,7 +122,10 @@ third running: 0.5x calculated strength of entire batch
 
 * Calculating Runnings Strength
 
-Number_points_ runnings = (Tot_points * Points_fraction / fractional_volume)
+Number_points_runnings = (Tot_points * Points_fraction / fractional_volume)
+
+
+.link http://beersmith.com/blog/2011/10/07/parti-gyle-brewing-two-beers-from-one-mash/ (source: beersmith blog)
 
 * Blending Calculations
 
@@ -165,4 +214,18 @@ Number_points_ runnings = (Tot_points * Points_fraction / fractional_volume)
 *Books:*
 Pattinson, Ronald; England, Kristen (2013-02-12). 1909 Beer Style Guide 
 
-* End
+* Presentation Online
+View at:
+
+.link http://go-talks.appspot.com/github.com/rlmcpherson/beertalks/partigyle.slide
+
+Source at:
+
+.link https://github.com/rlmcpherson/beertalks
+
+* Cheers! Go forth and Parti-gyle
+
+.image partigyle-beers.jpg
+
+# TODO: 
+#// clean up
